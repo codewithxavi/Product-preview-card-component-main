@@ -27,7 +27,7 @@ body{
 
 .main{
   max-width: 760px;
-  height: 490px;
+  height: 470px;
   overflow: hidden;
   margin: auto;
   display: flex;
@@ -70,8 +70,10 @@ body{
     font-family: $ff-montserrat;
     font-weight: 700;
     font-size: 2.2em;
-    padding-bottom: 1em;
     line-height: 1;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 1em;
   }
   .info{
     color: $color-dark-grayish-blue;
